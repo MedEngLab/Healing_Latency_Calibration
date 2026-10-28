@@ -1,0 +1,146 @@
+Process SpawnPoolWorker-1:
+Tr  reference gen 0: 1 evaluations in 30 s
+  reference gen 0: 1 evaluations in 29 s
+  lhs gen 0: 150 evaluations in 778 s
+  pso gen 1: 31 evaluations in 163 s
+  gen 1: best G = 6.415 (stall 1)
+  pso gen 2: 31 evaluations in 163 s
+  gen 2: best G = 4.480 (stall 0)
+  pso gen 3: 32 evaluations in 163 s
+  gen 3: best G = 4.480 (stall 1)
+  pso gen 4: 32 evaluations in 164 s
+  gen 4: best G = 3.249 (stall 0)
+  pso gen 5: 32 evaluations in 164 s
+  gen 5: best G = 2.827 (stall 0)
+  pso gen 6: 32 evaluations in 171 s
+  gen 6: best G = 2.827 (stall 1)
+  pso gen 7: 32 evaluations in 157 s
+  gen 7: best G = 2.827 (stall 2)
+  pso gen 8: 32 evaluations in 157 s
+  gen 8: best G = 2.827 (stall 3)
+  pso gen 9: 32 evaluations in 157 s
+  gen 9: best G = 2.704 (stall 0)
+  pso gen 10: 32 evaluations in 156 s
+  gen 10: best G = 2.704 (stall 1)
+  pso gen 11: 32 evaluations in 157 s
+  gen 11: best G = 2.704 (stall 2)
+  pso gen 12: 32 evaluations in 157 s
+  gen 12: best G = 2.704 (stall 3)
+  pso gen 13: 32 evaluations in 158 s
+  gen 13: best G = 2.704 (stall 4)
+  pso gen 14: 32 evaluations in 157 s
+  gen 14: best G = 2.704 (stall 5)
+  pso gen 15: 32 evaluations in 157 s
+  gen 15: best G = 2.704 (stall 6)
+  step2 gen 0: 1 evaluations in 28 s
+
+best G step 1 = 2.704, step 2 (-3 %) = 4.789; at bounds: ['E_bone']
+summary written to results_v2/cal_cart50/calibration_summary.json
+next: python3 -m calibration.validate --out results_v2/cal_cart50
+K1_calibration_fit     FAIL  mean <= 1.0 and each case <= 1.5
+K2_caseB_day56         PASS  IFM(B, day 56) <= 0.25 mm
+K3_validation_fit      FAIL  mean over V1-V4 <= 2.0
+K4_identifiability     PASS  <= 3 parameters within 1 % of a bound
+written: results_v2/cal_cart50/validation_summary.json, ifm_calibration_validation.png
+calibrated {'A': 3.02, 'B': 1.42, 'V1': 16.46, 'V2': 43.52, 'V3': 3.57, 'V4': 37.08} mean V1-V4 25.16
+ST13_design706 {'A': 2.67, 'B': 4.92, 'V1': 14.35, 'V2': 44.16, 'V3': 2.91, 'V4': 38.34} mean V1-V4 24.94
+written results_v2/cal_cart50/reevaluation_M4_32.json
+  reference gen 0: 1 evaluations in 29 s
+  reference gen 0: 1 evaluations in 29 s
+  lhs gen 0: 150 evaluations in 734 s
+  pso gen 1: 31 evaluations in 153 s
+  gen 1: best G = 8.130 (stall 0)
+  pso gen 2: 32 evaluations in 156 s
+  gen 2: best G = 5.754 (stall 0)
+  pso gen 3: 32 evaluations in 159 s
+  gen 3: best G = 4.914 (stall 0)
+  pso gen 4: 32 evaluations in 158 s
+  gen 4: best G = 4.914 (stall 1)
+  pso gen 5: 32 evaluations in 158 s
+  gen 5: best G = 4.239 (stall 0)
+  pso gen 6: 32 evaluations in 159 s
+  gen 6: best G = 4.239 (stall 1)
+  pso gen 7: 32 evaluations in 159 s
+  gen 7: best G = 3.875 (stall 0)
+  pso gen 8: 32 evaluations in 159 s
+  gen 8: best G = 3.875 (stall 1)
+  pso gen 9: 32 evaluations in 158 s
+  gen 9: best G = 2.910 (stall 0)
+  pso gen 10: 32 evaluations in 157 s
+  gen 10: best G = 2.767 (stall 0)
+  pso gen 11: 32 evaluations in 160 s
+  gen 11: best G = 2.741 (stall 0)
+  pso gen 12: 32 evaluations in 158 s
+  gen 12: best G = 2.523 (stall 0)
+  pso gen 13: 32 evaluations in 159 s
+  gen 13: best G = 2.436 (stall 0)
+  pso gen 14: 32 evaluations in 161 s
+  gen 14: best G = 2.407 (stall 0)
+  pso gen 15: 32 evaluations in 163 s
+  gen 15: best G = 2.301 (stall 0)
+  pso gen 16: 32 evaluations in 160 s
+  gen 16: best G = 2.301 (stall 1)
+  pso gen 17: 32 evaluations in 164 s
+  gen 17: best G = 2.301 (stall 2)
+  pso gen 18: 32 evaluations in 162 s
+  gen 18: best G = 2.264 (stall 0)
+  pso gen 19: 32 evaluations in 161 s
+  gen 19: best G = 2.212 (stall 0)
+  pso gen 20: 32 evaluations in 161 s
+  gen 20: best G = 2.144 (stall 0)
+  pso gen 21: 32 evaluations in 161 s
+  gen 21: best G = 2.027 (stall 0)
+  pso gen 22: 32 evaluations in 162 s
+  gen 22: best G = 2.027 (stall 1)
+  pso gen 23: 32 evaluations in 161 s
+  gen 23: best G = 2.024 (stall 0)
+  pso gen 24: 32 evaluations in 162 s
+  gen 24: best G = 1.553 (stall 0)
+  pso gen 25: 32 evaluations in 165 s
+  gen 25: best G = 1.460 (stall 0)
+  pso gen 26: 32 evaluations in 166 s
+  gen 26: best G = 1.460 (stall 1)
+  pso gen 27: 32 evaluations in 167 s
+  gen 27: best G = 1.460 (stall 2)
+  pso gen 28: 32 evaluations in 167 s
+  gen 28: best G = 1.433 (stall 0)
+  pso gen 29: 32 evaluations in 163 s
+  gen 29: best G = 1.354 (stall 0)
+  pso gen 30: 32 evaluations in 163 s
+  gen 30: best G = 1.010 (stall 0)
+  pso gen 31: 32 evaluations in 162 s
+  gen 31: best G = 0.851 (stall 0)
+  pso gen 32: 32 evaluations in 162 s
+  gen 32: best G = 0.766 (stall 0)
+  pso gen 33: 32 evaluations in 163 s
+  gen 33: best G = 0.621 (stall 0)
+  pso gen 34: 32 evaluations in 162 s
+  gen 34: best G = 0.561 (stall 0)
+  pso gen 35: 32 evaluations in 162 s
+  gen 35: best G = 0.551 (stall 0)
+  step2 gen 0: 1 evaluations in 29 s
+
+best G step 1 = 0.551, step 2 (-3 %) = 0.785; at bounds: ['E_bone', 'E_conn', 'nu_bone', 'nu_conn', 'dec_perf', 'dec_cart', 'exp_bone']
+summary written to results_v2/cal_cart30/calibration_summary.json
+next: python3 -m calibration.validate --out results_v2/cal_cart30
+K1_calibration_fit     PASS  mean <= 1.0 and each case <= 1.5
+K2_caseB_day56         PASS  IFM(B, day 56) <= 0.25 mm
+K3_validation_fit      FAIL  mean over V1-V4 <= 2.0
+K4_identifiability     FAIL  <= 3 parameters within 1 % of a bound
+written: results_v2/cal_cart30/validation_summary.json, ifm_calibration_validation.png
+calibrated {'A': 1.0, 'B': 0.53, 'V1': 2.3, 'V2': 28.81, 'V3': 3.08, 'V4': 9.06} mean V1-V4 10.81
+ST13_design706 {'A': 2.72, 'B': 4.81, 'V1': 15.19, 'V2': 44.43, 'V3': 3.14, 'V4': 39.01} mean V1-V4 25.44
+written results_v2/cal_cart30/reevaluation_M4_32.json
+target 0.220: A_ref 0.2470 (bone 0.220), mu 0.3371 (perfusion 0.220)
+target 0.150: A_ref 0.1128 (bone 0.150), mu 0.3407 (perfusion 0.150)
+target 0.100: A_ref 0.0490 (bone 0.100), mu 0.3413 (perfusion 0.100)
+target 0.070: A_ref 0.0231 (bone 0.070), mu 0.3460 (perfusion 0.070)
+target 0.050: A_ref 0.0125 (bone 0.050), mu 0.3493 (perfusion 0.050)
+target 0.035: A_ref 0.0065 (bone 0.035), mu 0.3385 (perfusion 0.035)
+v=0.220 mm/day: A 2.40 B 4.45 V1 12.65 V2 42.62 V3 2.73 V4 37.17 | mean V 23.79
+v=0.150 mm/day: A 1.26 B 2.81 V1 4.88 V2 31.85 V3 2.56 V4 17.01 | mean V 14.08
+v=0.100 mm/day: A 0.22 B 29.18 V1 1.17 V2 9.94 V3 2.79 V4 5.70 | mean V 4.90
+v=0.070 mm/day: A 0.87 B 30.48 V1 1.92 V2 1.18 V3 2.95 V4 6.51 | mean V 3.14
+v=0.050 mm/day: A 1.37 B 31.62 V1 2.65 V2 0.75 V3 2.98 V4 7.22 | mean V 3.40
+v=0.035 mm/day: A 2.15 B 30.93 V1 3.20 V2 0.82 V3 3.09 V4 7.62 | mean V 3.69
+stage 2 complete

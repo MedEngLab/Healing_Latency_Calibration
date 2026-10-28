@@ -1,0 +1,9 @@
+calibration (A+B): mCI 3.3, tau 15 d; errors A 0.55, B 0.21, V1 0.65, V2 20.20, V3 0.97, V4 6.72
+  K1         PASS  mean <= 1.0, each <= 1.5  {'G_cal_mean': 0.37981075433826733, 'A': 0.5538566860793082, 'B': 0.2057648225972265}
+  K2         PASS  IFM(B, day 56) <= 0.25 mm  0.11098406936035604
+  K3         FAIL  mean V1-V4 <= 2.0  {'mean': 7.134845853297661, 'V1': 0.6469920629064512, 'V2': 20.196968780728735, 'V3': 0.9737613168685838, 'V4': 6.721661252686874}
+  K4_report  report  report estimates at a grid bound (not a kill criterion)  []
+LOO held-out: A 0.51 (mCI 3.3, tau 23), B 2.84 (mCI 3.5, tau 24), V1 0.73 (mCI 3.3, tau 23), V2 15.56 (mCI 3.3, tau 17), V3 0.98 (mCI 3.5, tau 22), V4 6.13 (mCI 3.3, tau 23)
+CV mean 4.46, median 1.91; L1 FAIL
+fold all: mCI 3.3, tau 23, G/case 2.08
+kill criteria passed: False; 9.8 min; written results_v3/sensitivity_M3_16

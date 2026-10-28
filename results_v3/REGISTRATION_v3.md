@@ -1,0 +1,18 @@
+# v3 registration (PROTOCOL.md Sect. 10.2)
+
+Registered 2026-10-27 07:07 UTC, before any v3 calibration run.
+
+```
+3ad7e4ead5794a7cc6e0ebc73e1e9de13c5c8cb9e2ba6ec54b4659e73ad585c2  calibration/PROTOCOL.md
+8059318643f7a225153e0bfc611090388289f9b6d4fa841a6f94dfb16a51b8e5  calibration/v3_grid.py
+d035dfa0c142cdfab3f648d12ae8cd4b09cd12a10994d56a12fca4ed2a7514b4  calibration/model.py
+78cb8074e676becba41a88782a7b19b88bc14e21a19205cba36a699f6783c77d  calibration/data.py
+ef289bc078886a90916b281f3e1c0eae8afc5c9850fea5bc80a217abc597c04d  verification/healing.py
+ae29a13aff041b39c4d30c2e53df15639829c2f56485766f042ea7074942a821  verification/axisym.py
+e4cd0b904efc9dfda16b6291e54f5e9a531c7ec0e4d03f65e33186fe9188de93  rulebase/mamdani.py
+fb412704e056e2ebe0e94c9b6cd980b864e256c32c4c5498536ceb0ad9217106  rulebase/spec.py
+9bcce36e9d007208b56d5020e30d97bcfcecf7fe3bac8569535e97dd73313238  tests/test_rulebase.py
+11f5540ed7ea45c6001e6f8b0f33fe1f634575f4e16e41fa374e8f67bf410f1b  run_v3_primary.sh
+7fba9f367ec08d7b9dc207eafb561433e8e0809a57e11f59ec223beec1583b34  results_v2/mesh/setting_M4_32.json
+0244b375ebf25171d27f6ca2c21fa5651444db2a265cdddeb740382a8c040b63  results_v2/mesh/setting_M3_16.json
+```

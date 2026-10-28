@@ -1,0 +1,164 @@
+fold A: train ['B', 'V1', 'V2', 'V3', 'V4']
+    fold A lhs: 750 simulations in 1954 s
+    fold A gen 1: 155 simulations in 393 s
+    fold A gen 2: 155 simulations in 398 s
+    fold A gen 3: 160 simulations in 411 s
+    fold A gen 4: 160 simulations in 407 s
+    fold A gen 5: 160 simulations in 412 s
+    fold A gen 6: 160 simulations in 409 s
+    fold A gen 7: 160 simulations in 416 s
+    fold A gen 8: 160 simulations in 416 s
+    fold A gen 9: 160 simulations in 408 s
+    fold A gen 10: 160 simulations in 410 s
+    fold A gen 11: 160 simulations in 412 s
+    fold A predict: 1 simulations in 14 s
+  fold A: G_train/case 9.220, held-out 3.6304894099933733
+fold B: train ['A', 'V1', 'V2', 'V3', 'V4']
+    fold B lhs: 150 simulations in 362 s
+    fold B gen 1: 91 simulations in 229 s
+    fold B gen 2: 160 simulations in 404 s
+    fold B gen 3: 160 simulations in 406 s
+    fold B gen 4: 160 simulations in 413 s
+    fold B gen 5: 160 simulations in 408 s
+    fold B gen 6: 160 simulations in 407 s
+    fold B gen 7: 160 simulations in 409 s
+    fold B gen 8: 160 simulations in 407 s
+    fold B gen 9: 160 simulations in 414 s
+    fold B gen 10: 160 simulations in 409 s
+    fold B gen 11: 160 simulations in 406 s
+    fold B gen 12: 160 simulations in 410 s
+    fold B gen 13: 160 simulations in 409 s
+    fold B gen 14: 160 simulations in 411 s
+    fold B gen 15: 160 simulations in 406 s
+    fold B gen 16: 160 simulations in 407 s
+    fold B gen 17: 160 simulations in 408 s
+    fold B gen 18: 160 simulations in 411 s
+    fold B gen 19: 160 simulations in 409 s
+    fold B gen 20: 160 simulations in 409 s
+    fold B gen 21: 160 simulations in 409 s
+    fold B gen 22: 160 simulations in 408 s
+    fold B gen 23: 160 simulations in 408 s
+    fold B gen 24: 160 simulations in 410 s
+    fold B gen 25: 160 simulations in 410 s
+    fold B gen 26: 160 simulations in 411 s
+    fold B predict: 1 simulations in 14 s
+  fold B: G_train/case 2.990, held-out 33.80674135327993
+fold V1: train ['A', 'B', 'V2', 'V3', 'V4']
+    fold V1 gen 1: 155 simulations in 396 s
+    fold V1 gen 2: 155 simulations in 397 s
+    fold V1 gen 3: 160 simulations in 414 s
+    fold V1 gen 4: 160 simulations in 413 s
+    fold V1 gen 5: 160 simulations in 415 s
+    fold V1 gen 6: 160 simulations in 411 s
+    fold V1 gen 7: 160 simulations in 414 s
+    fold V1 gen 8: 160 simulations in 409 s
+    fold V1 gen 9: 160 simulations in 415 s
+    fold V1 gen 10: 160 simulations in 417 s
+    fold V1 gen 11: 160 simulations in 411 s
+    fold V1 gen 12: 160 simulations in 413 s
+    fold V1 gen 13: 160 simulations in 416 s
+    fold V1 gen 14: 160 simulations in 417 s
+    fold V1 gen 15: 160 simulations in 413 s
+    fold V1 gen 16: 160 simulations in 412 s
+    fold V1 gen 17: 160 simulations in 414 s
+    fold V1 predict: 1 simulations in 14 s
+  fold V1: G_train/case 7.279, held-out 2.146747169280126
+fold V2: train ['A', 'B', 'V1', 'V3', 'V4']
+    fold V2 gen 1: 138 simulations in 346 s
+    fold V2 gen 2: 160 simulations in 403 s
+    fold V2 gen 3: 160 simulations in 400 s
+    fold V2 gen 4: 160 simulations in 398 s
+    fold V2 gen 5: 160 simulations in 400 s
+    fold V2 gen 6: 160 simulations in 404 s
+    fold V2 gen 7: 160 simulations in 404 s
+    fold V2 gen 8: 160 simulations in 404 s
+    fold V2 gen 9: 160 simulations in 402 s
+    fold V2 gen 10: 160 simulations in 401 s
+    fold V2 gen 11: 160 simulations in 410 s
+    fold V2 gen 12: 160 simulations in 404 s
+    fold V2 gen 13: 160 simulations in 402 s
+    fold V2 gen 14: 160 simulations in 404 s
+    fold V2 gen 15: 160 simulations in 406 s
+    fold V2 gen 16: 160 simulations in 405 s
+    fold V2 gen 17: 160 simulations in 403 s
+    fold V2 gen 18: 160 simulations in 409 s
+    fold V2 gen 19: 160 simulations in 409 s
+    fold V2 gen 20: 160 simulations in 411 s
+    fold V2 gen 21: 160 simulations in 403 s
+    fold V2 gen 22: 160 simulations in 409 s
+    fold V2 gen 23: 160 simulations in 407 s
+    fold V2 gen 24: 160 simulations in 405 s
+    fold V2 gen 25: 160 simulations in 408 s
+    fold V2 gen 26: 160 simulations in 407 s
+    fold V2 gen 27: 160 simulations in 411 s
+    fold V2 gen 28: 160 simulations in 417 s
+    fold V2 gen 29: 160 simulations in 425 s
+    fold V2 gen 30: 160 simulations in 431 s
+    fold V2 gen 31: 160 simulations in 467 s
+    fold V2 gen 32: 160 simulations in 424 s
+    fold V2 gen 33: 160 simulations in 431 s
+    fold V2 gen 34: 160 simulations in 408 s
+    fold V2 gen 35: 160 simulations in 400 s
+    fold V2 predict: 1 simulations in 15 s
+  fold V2: G_train/case 2.264, held-out 21.784133808387015
+fold V3: train ['A', 'B', 'V1', 'V2', 'V4']
+    fold V3 gen 1: 39 simulations in 98 s
+    fold V3 gen 2: 75 simulations in 189 s
+    fold V3 gen 3: 160 simulations in 395 s
+    fold V3 gen 4: 160 simulations in 396 s
+    fold V3 gen 5: 160 simulations in 397 s
+    fold V3 gen 6: 160 simulations in 396 s
+    fold V3 gen 7: 160 simulations in 397 s
+    fold V3 gen 8: 160 simulations in 398 s
+    fold V3 gen 9: 160 simulations in 399 s
+    fold V3 gen 10: 160 simulations in 398 s
+    fold V3 gen 11: 160 simulations in 399 s
+    fold V3 gen 12: 160 simulations in 398 s
+    fold V3 gen 13: 160 simulations in 397 s
+    fold V3 gen 14: 160 simulations in 398 s
+    fold V3 gen 15: 160 simulations in 398 s
+    fold V3 gen 16: 160 simulations in 398 s
+    fold V3 gen 17: 160 simulations in 411 s
+    fold V3 gen 18: 160 simulations in 441 s
+    fold V3 gen 19: 160 simulations in 449 s
+    fold V3 predict: 1 simulations in 16 s
+  fold V3: G_train/case 9.064, held-out 3.393133500107392
+fold V4: train ['A', 'B', 'V1', 'V2', 'V3']
+    fold V4 gen 1: 112 simulations in 337 s
+    fold V4 gen 2: 125 simulations in 340 s
+    fold V4 gen 3: 160 simulations in 437 s
+    fold V4 gen 4: 160 simulations in 433 s
+    fold V4 gen 5: 160 simulations in 442 s
+    fold V4 gen 6: 160 simulations in 481 s
+    fold V4 gen 7: 160 simulations in 498 s
+    fold V4 gen 8: 160 simulations in 457 s
+    fold V4 gen 9: 160 simulations in 456 s
+    fold V4 gen 10: 160 simulations in 457 s
+    fold V4 gen 11: 160 simulations in 463 s
+    fold V4 predict: 1 simulations in 15 s
+  fold V4: G_train/case 8.422, held-out 7.085922445947357
+fold all: train ['A', 'B', 'V1', 'V2', 'V3', 'V4']
+    fold all gen 1: 6 simulations in 20 s
+    fold all gen 2: 16 simulations in 49 s
+    fold all gen 3: 57 simulations in 170 s
+    fold all gen 4: 57 simulations in 168 s
+    fold all gen 5: 57 simulations in 169 s
+    fold all gen 6: 57 simulations in 168 s
+    fold all gen 7: 57 simulations in 168 s
+    fold all gen 8: 57 simulations in 166 s
+    fold all gen 9: 192 simulations in 532 s
+    fold all gen 10: 192 simulations in 536 s
+    fold all gen 11: 192 simulations in 539 s
+    fold all gen 12: 192 simulations in 638 s
+    fold all gen 13: 192 simulations in 643 s
+    fold all gen 14: 192 simulations in 626 s
+    fold all gen 15: 192 simulations in 668 s
+  fold all: G_train/case 8.131, held-out None
+    reference: 6 simulations in 23 s
+
+written: results_v2/loo_cart30_baseline/loo_summary.json
+CV error mean 11.97, median 5.36; held-out: A 3.63, B 33.81, V1 2.15, V2 21.78, V3 3.39, V4 7.09
+held-out at M4_32 {'A': 3.48, 'B': 33.79, 'V1': 1.61, 'V2': 29.42, 'V3': 3.41, 'V4': 7.31}
+CV mean 13.17, median 5.40, L1 FAIL
+written results_v2/loo_cart30_baseline/loo_reevaluation_M4_32.json
+stage 3 complete

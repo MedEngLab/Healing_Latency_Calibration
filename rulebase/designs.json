@@ -1,0 +1,149 @@
+{
+ "ST13_design706": {
+  "theta": {
+   "E_bone": 538.0,
+   "E_cart": 28.0,
+   "E_conn": 1.4,
+   "nu_bone": 0.33,
+   "nu_cart": 0.3,
+   "nu_conn": 0.33,
+   "dec_perf": -0.22,
+   "dec_bone": -0.475,
+   "dec_cart": -0.28,
+   "inc_cart": 0.23,
+   "exp_bone": 4.5,
+   "exp_cart": 3.1
+  },
+  "neg_destructive": -0.03,
+  "cart_lim": 0.5,
+  "tau": 0,
+  "mci": 2.0,
+  "source": "Steiner et al. 2013, design no. 706 (published values)"
+ },
+ "v1_recalibrated": {
+  "theta": {
+   "E_bone": 500.0,
+   "E_cart": 33.16658000638493,
+   "E_conn": 2.9007637341873895,
+   "nu_bone": 0.3027351156315711,
+   "nu_cart": 0.26684384410071743,
+   "nu_conn": 0.418431623308349,
+   "dec_perf": -0.39204525412116964,
+   "dec_bone": -0.0708400836582938,
+   "dec_cart": -0.32987354693458626,
+   "inc_cart": 0.3230342679073426,
+   "exp_bone": 5.0,
+   "exp_cart": 3.063023729899851
+  },
+  "neg_destructive": -0.05,
+  "cart_lim": 0.5,
+  "tau": 0,
+  "mci": 2.0,
+  "source": "results/calibration_summary.json"
+ },
+ "v2_cart50": {
+  "theta": {
+   "E_bone": 500.0,
+   "E_cart": 24.990884962963648,
+   "E_conn": 1.352340550172019,
+   "nu_bone": 0.3122373331566375,
+   "nu_cart": 0.339268535809226,
+   "nu_conn": 0.33549273105921684,
+   "dec_perf": -0.09810895529294317,
+   "dec_bone": -0.20569131763295173,
+   "dec_cart": -0.22097581100237912,
+   "inc_cart": 0.18739840859485463,
+   "exp_bone": 3.3522877756487226,
+   "exp_cart": 3.148740055435179
+  },
+  "neg_destructive": -0.05,
+  "cart_lim": 0.5,
+  "tau": 0,
+  "mci": 2.0,
+  "source": "results_v2/cal_cart50/calibration_summary.json"
+ },
+ "v2_cart30": {
+  "theta": {
+   "E_bone": 500.0,
+   "E_cart": 14.022876718784463,
+   "E_conn": 3.0,
+   "nu_bone": 0.26,
+   "nu_cart": 0.3447724104576325,
+   "nu_conn": 0.49,
+   "dec_perf": -0.025000000000000022,
+   "dec_bone": -0.28035549956674033,
+   "dec_cart": -0.285,
+   "inc_cart": 0.1677374680099144,
+   "exp_bone": 5.0,
+   "exp_cart": 3.053151113895694
+  },
+  "neg_destructive": -0.05,
+  "cart_lim": 0.3,
+  "tau": 0,
+  "mci": 2.0,
+  "source": "results_v2/cal_cart30/calibration_summary.json"
+ },
+ "v3_fit_all_six": {
+  "theta": {
+   "E_bone": 538.0,
+   "E_cart": 28.0,
+   "E_conn": 1.4,
+   "nu_bone": 0.33,
+   "nu_cart": 0.3,
+   "nu_conn": 0.33,
+   "dec_perf": -0.22,
+   "dec_bone": -0.475,
+   "dec_cart": -0.28,
+   "inc_cart": 0.23,
+   "exp_bone": 4.5,
+   "exp_cart": 3.1
+  },
+  "neg_destructive": -0.03,
+  "cart_lim": 0.5,
+  "tau": 24,
+  "mci": 3.3,
+  "source": "results_v3/primary_M4_32/v3_summary.json (LOO fold 'all')"
+ },
+ "v3_calibration_AB": {
+  "theta": {
+   "E_bone": 538.0,
+   "E_cart": 28.0,
+   "E_conn": 1.4,
+   "nu_bone": 0.33,
+   "nu_cart": 0.3,
+   "nu_conn": 0.33,
+   "dec_perf": -0.22,
+   "dec_bone": -0.475,
+   "dec_cart": -0.28,
+   "inc_cart": 0.23,
+   "exp_bone": 4.5,
+   "exp_cart": 3.1
+  },
+  "neg_destructive": -0.03,
+  "cart_lim": 0.5,
+  "tau": 17,
+  "mci": 3.4,
+  "source": "results_v3/primary_M4_32/v3_summary.json (calibration)"
+ },
+ "v3_secondary_a_14par": {
+  "theta": {
+   "E_bone": 500.0,
+   "E_cart": 37.744902413279284,
+   "E_conn": 2.4932048937479467,
+   "nu_bone": 0.26,
+   "nu_cart": 0.4855196155185946,
+   "nu_conn": 0.454834808538088,
+   "dec_perf": -0.1991779130636026,
+   "dec_bone": -0.17017133552460584,
+   "dec_cart": -0.46209005302951994,
+   "inc_cart": 0.13355513865579827,
+   "exp_bone": 3.3045920113329554,
+   "exp_cart": 3.3280957911809823
+  },
+  "neg_destructive": -0.05,
+  "cart_lim": 0.5,
+  "tau": 16.220834073910176,
+  "mci": 2.8706620421084144,
+  "source": "results_v3/cal_v3a/calibration_summary.json"
+ }
+}

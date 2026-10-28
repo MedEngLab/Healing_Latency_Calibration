@@ -1,0 +1,54 @@
+{
+ "fixator": {
+  "k_bas": 4600.0,
+  "k_ret": 20.0,
+  "F_pre": 100.0,
+  "units": "N/mm, N/mm, N",
+  "source": "Simon et al. 2011, Sect. 2.1"
+ },
+ "axial_load_N": 840.0,
+ "sd_floor_mm": 0.02,
+ "in_vivo_days": [
+  1,
+  7,
+  14,
+  21,
+  28,
+  35,
+  42,
+  49,
+  56
+ ],
+ "cortex": {
+  "E_MPa": 15750.0,
+  "nu": 0.325
+ },
+ "geometry_mm": {
+  "medullary_radius": 6.0,
+  "periosteal_radius": 8.0,
+  "outer_callus_radius": "8 x mCI",
+  "periosteal_callus_height": 13.0,
+  "endosteal_callus_height": 4.5,
+  "half_length": 20.0,
+  "source": "Claes & Heigele 1999, Fig. 2a; outline shapes are assumptions (cos^2 periosteal, parabolic endosteal)"
+ },
+ "numerical_settings": {
+  "M3_16": {
+   "A_ref": 0.24701118971466643,
+   "perf_rate": 0.33624092152886975,
+   "max_area_callus": 0.08,
+   "max_area_cortex": 0.16,
+   "substeps": 16,
+   "defuzz": "exact"
+  },
+  "M4_32": {
+   "A_ref": 0.2519499163693227,
+   "perf_rate": 0.33613899809620157,
+   "max_area_callus": 0.04,
+   "max_area_cortex": 0.08,
+   "substeps": 32,
+   "defuzz": "exact"
+  }
+ },
+ "objective": "e = mean over the 9 in vivo days of ((mean - sim) / max(SD, sd_floor))^2"
+}

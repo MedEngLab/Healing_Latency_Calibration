@@ -1,0 +1,225 @@
+A_ref M1 n=1: 0.5369 mm^2 (front 0.221 mm/day)
+A_ref M2 n=1: 0.3944 mm^2 (front 0.219 mm/day)
+A_ref M3 n=1: 20.0000 mm^2 (front 0.176 mm/day)
+A_ref M1 n=4: 0.2957 mm^2 (front 0.219 mm/day)
+A_ref M2 n=4: 0.3270 mm^2 (front 0.220 mm/day)
+A_ref M1 n=8: 0.2718 mm^2 (front 0.221 mm/day)
+A_ref M4 n=1: 20.0000 mm^2 (front 0.120 mm/day)
+A_ref M3 n=4: 0.3236 mm^2 (front 0.221 mm/day)
+A_ref M2 n=8: 0.2924 mm^2 (front 0.220 mm/day)
+A_ref M1 n=16: 0.2571 mm^2 (front 0.220 mm/day)
+A_ref M2 n=16: 0.2761 mm^2 (front 0.220 mm/day)
+A_ref M3 n=8: 0.2654 mm^2 (front 0.220 mm/day)
+A_ref M4 n=4: 0.3394 mm^2 (front 0.219 mm/day)
+A_ref M3 n=16: 0.2470 mm^2 (front 0.220 mm/day)
+A_ref M4 n=8: 0.3041 mm^2 (front 0.220 mm/day)
+A_ref M4 n=16: 0.2642 mm^2 (front 0.220 mm/day)
+M1 n= 1 cart30 B   e=  3.17 n_el=1156 1s
+M1 n= 1 cart30 A   e=  2.33 n_el=1163 1s
+M1 n= 1 cart50 V4  e= 14.65 n_el=1164 1s
+M1 n= 1 cart50 V3  e=  2.83 n_el=1229 1s
+M1 n= 1 cart50 A   e=  1.16 n_el=1163 2s
+M1 n= 1 cart50 V1  e=  4.37 n_el=1169 2s
+M1 n= 1 cart50 V2  e= 23.36 n_el=1202 2s
+M1 n= 1 cart50 B   e= 13.29 n_el=1156 2s
+M1 n= 1 cart30 V1  e=  6.14 n_el=1169 1s
+M1 n= 1 cart30 V2  e= 38.08 n_el=1202 1s
+M1 n= 1 cart30 V4  e= 18.40 n_el=1164 1s
+M1 n= 1 cart30 V3  e=  2.79 n_el=1229 1s
+M1 n= 4 cart50 V4  e= 31.66 n_el=1164 3s
+M1 n= 4 cart30 B   e= 29.80 n_el=1156 3s
+M1 n= 4 cart30 A   e=  3.09 n_el=1163 3s
+M1 n= 4 cart50 V3  e=  2.86 n_el=1229 3s
+M1 n= 4 cart50 B   e= 28.77 n_el=1156 4s
+M1 n= 4 cart50 A   e=  3.01 n_el=1163 4s
+M1 n= 4 cart50 V1  e= 17.86 n_el=1169 5s
+M1 n= 4 cart50 V2  e= 44.95 n_el=1202 5s
+M1 n= 4 cart30 V1  e= 18.57 n_el=1169 3s
+M1 n= 4 cart30 V2  e= 46.61 n_el=1202 3s
+M1 n= 4 cart30 V4  e= 32.82 n_el=1164 3s
+M1 n= 4 cart30 V3  e=  1.52 n_el=1229 3s
+M1 n= 8 cart30 A   e=  3.18 n_el=1163 5s
+M1 n= 8 cart50 V4  e= 35.28 n_el=1164 5s
+M1 n= 8 cart50 A   e=  3.12 n_el=1163 7s
+M1 n= 8 cart50 B   e= 27.93 n_el=1156 7s
+M1 n= 8 cart30 B   e= 28.53 n_el=1156 5s
+M1 n= 8 cart50 V3  e=  2.72 n_el=1229 5s
+M1 n= 8 cart50 V1  e= 18.13 n_el=1169 7s
+M1 n= 8 cart50 V2  e= 46.08 n_el=1202 7s
+M1 n= 8 cart30 V1  e= 18.94 n_el=1169 5s
+M1 n= 8 cart30 V2  e= 47.91 n_el=1202 5s
+M1 n= 8 cart30 V4  e= 35.99 n_el=1164 7s
+M1 n= 8 cart30 V3  e=  3.00 n_el=1229 8s
+M1 n=16 cart50 B   e=  4.44 n_el=1156 9s
+M1 n=16 cart50 A   e=  3.13 n_el=1163 9s
+M1 n=16 cart50 V1  e= 18.23 n_el=1169 13s
+M1 n=16 cart50 V4  e= 28.73 n_el=1164 9s
+M1 n=16 cart50 V2  e= 46.11 n_el=1202 14s
+M1 n=16 cart50 V3  e=  2.94 n_el=1229 10s
+M2 n= 1 cart50 B   e= 15.16 n_el=1528 1s
+M2 n= 1 cart50 A   e=  0.79 n_el=1493 2s
+M2 n= 1 cart50 V1  e=  2.11 n_el=1506 1s
+M1 n=16 cart30 V1  e= 19.10 n_el=1169 9s
+M2 n= 1 cart50 V2  e= 19.22 n_el=1599 2s
+M1 n=16 cart30 V2  e= 48.25 n_el=1202 9s
+M2 n= 1 cart50 V3  e=  1.57 n_el=1621 1s
+M2 n= 1 cart50 V4  e=  7.20 n_el=1500 1s
+M1 n=16 cart30 A   e=  3.22 n_el=1163 13s
+M2 n= 1 cart30 B   e= 25.85 n_el=1528 1s
+M2 n= 1 cart30 V1  e=  2.57 n_el=1506 1s
+M1 n=16 cart30 B   e= 11.99 n_el=1156 13s
+M2 n= 1 cart30 A   e=  1.70 n_el=1493 2s
+M2 n= 1 cart30 V2  e= 29.74 n_el=1599 1s
+M2 n= 1 cart30 V4  e=  6.47 n_el=1500 1s
+M2 n= 1 cart30 V3  e=  2.88 n_el=1621 2s
+M1 n=16 cart30 V4  e= 36.14 n_el=1164 9s
+M2 n= 4 cart50 A   e=  2.69 n_el=1493 3s
+M2 n= 4 cart50 V2  e= 45.33 n_el=1599 4s
+M2 n= 4 cart50 V3  e=  3.07 n_el=1621 4s
+M2 n= 4 cart50 B   e= 28.52 n_el=1528 5s
+M2 n= 4 cart50 V1  e= 18.84 n_el=1506 5s
+M2 n= 4 cart30 A   e=  2.77 n_el=1493 3s
+M2 n= 4 cart50 V4  e= 33.56 n_el=1500 5s
+M2 n= 4 cart30 B   e=  2.95 n_el=1528 3s
+M2 n= 4 cart30 V1  e= 18.97 n_el=1506 3s
+M1 n=16 cart30 V3  e=  2.66 n_el=1229 15s
+M2 n= 4 cart30 V2  e= 46.59 n_el=1599 4s
+M2 n= 4 cart30 V3  e=  2.67 n_el=1621 5s
+M2 n= 4 cart30 V4  e= 34.28 n_el=1500 5s
+M2 n= 8 cart50 A   e=  3.00 n_el=1493 6s
+M2 n= 8 cart50 V1  e= 19.43 n_el=1506 6s
+M2 n= 8 cart50 V2  e= 47.53 n_el=1599 6s
+M2 n= 8 cart50 V4  e= 37.59 n_el=1500 6s
+M2 n= 8 cart50 B   e=  8.62 n_el=1528 9s
+M2 n= 8 cart50 V3  e=  2.79 n_el=1621 9s
+M2 n= 8 cart30 V1  e= 19.49 n_el=1506 6s
+M2 n= 8 cart30 A   e=  2.97 n_el=1493 9s
+M2 n= 8 cart30 V2  e= 48.39 n_el=1599 6s
+M2 n= 8 cart30 B   e=  7.05 n_el=1528 9s
+M2 n= 8 cart30 V3  e=  2.81 n_el=1621 7s
+M2 n= 8 cart30 V4  e= 37.79 n_el=1500 6s
+M2 n=16 cart50 V1  e= 19.59 n_el=1506 11s
+M2 n=16 cart50 V3  e=  2.81 n_el=1621 12s
+M2 n=16 cart30 A   e=  3.08 n_el=1493 11s
+M2 n=16 cart50 A   e=  3.12 n_el=1493 17s
+M2 n=16 cart30 B   e=  2.76 n_el=1528 12s
+M3 n= 1 cart50 A   e=  0.36 n_el=2217 2s
+M2 n=16 cart50 B   e=  4.17 n_el=1528 17s
+M2 n=16 cart50 V4  e= 40.10 n_el=1500 17s
+M3 n= 1 cart50 B   e= 22.81 n_el=2272 2s
+M2 n=16 cart50 V2  e= 48.38 n_el=1599 18s
+M3 n= 1 cart50 V1  e=  1.21 n_el=2213 3s
+M3 n= 1 cart50 V3  e=  2.01 n_el=2443 2s
+M3 n= 1 cart50 V2  e= 15.30 n_el=2445 3s
+M3 n= 1 cart50 V4  e=  5.89 n_el=2241 3s
+M3 n= 1 cart30 B   e= 29.06 n_el=2272 2s
+M3 n= 1 cart30 A   e=  0.40 n_el=2217 3s
+M2 n=16 cart30 V1  e= 19.67 n_el=1506 11s
+M3 n= 1 cart30 V1  e=  1.19 n_el=2213 3s
+M3 n= 1 cart30 V3  e=  3.04 n_el=2443 2s
+M3 n= 1 cart30 V2  e= 22.31 n_el=2445 3s
+M2 n=16 cart30 V2  e= 48.95 n_el=1599 12s
+M2 n=16 cart30 V3  e=  2.67 n_el=1621 12s
+M3 n= 1 cart30 V4  e=  6.84 n_el=2241 3s
+M3 n= 4 cart50 A   e=  2.64 n_el=2217 5s
+M3 n= 4 cart50 V1  e= 18.88 n_el=2213 5s
+M3 n= 4 cart50 V4  e= 36.06 n_el=2241 5s
+M3 n= 4 cart50 V3  e=  3.10 n_el=2443 5s
+M2 n=16 cart30 V4  e= 39.49 n_el=1500 17s
+M3 n= 4 cart50 B   e=  3.66 n_el=2272 7s
+M3 n= 4 cart30 B   e= 27.67 n_el=2272 5s
+M3 n= 4 cart50 V2  e= 46.14 n_el=2445 8s
+M3 n= 4 cart30 A   e=  2.81 n_el=2217 7s
+M3 n= 4 cart30 V1  e= 19.02 n_el=2213 5s
+M3 n= 4 cart30 V2  e= 47.32 n_el=2445 5s
+M3 n= 4 cart30 V3  e=  3.13 n_el=2443 5s
+M3 n= 4 cart30 V4  e= 37.34 n_el=2241 8s
+M3 n= 8 cart50 B   e=  5.67 n_el=2272 9s
+M3 n= 8 cart50 V3  e=  2.85 n_el=2443 10s
+M3 n= 8 cart50 V4  e= 39.13 n_el=2241 9s
+M3 n= 8 cart30 A   e=  2.97 n_el=2217 9s
+M3 n= 8 cart50 A   e=  2.88 n_el=2217 14s
+M3 n= 8 cart50 V1  e= 19.27 n_el=2213 13s
+M3 n= 8 cart50 V2  e= 47.69 n_el=2445 15s
+M3 n= 8 cart30 V1  e= 19.41 n_el=2213 9s
+M3 n= 8 cart30 B   e=  7.60 n_el=2272 13s
+M3 n= 8 cart30 V4  e= 39.91 n_el=2241 9s
+M3 n= 8 cart30 V2  e= 48.44 n_el=2445 9s
+M3 n= 8 cart30 V3  e=  3.09 n_el=2443 9s
+M3 n=16 cart50 V2  e= 48.68 n_el=2445 18s
+M3 n=16 cart50 A   e=  3.05 n_el=2217 24s
+M3 n=16 cart50 V4  e= 43.40 n_el=2241 16s
+M3 n=16 cart30 A   e=  3.12 n_el=2217 16s
+M3 n=16 cart50 B   e=  4.95 n_el=2272 25s
+M3 n=16 cart30 B   e=  3.31 n_el=2272 17s
+M3 n=16 cart50 V1  e= 19.60 n_el=2213 24s
+M4 n= 1 cart50 B   e= 27.64 n_el=3965 4s
+M4 n= 1 cart50 A   e=  0.40 n_el=3892 4s
+M4 n= 1 cart50 V1  e=  1.45 n_el=3772 5s
+M3 n=16 cart50 V3  e=  2.92 n_el=2443 26s
+M4 n= 1 cart50 V2  e=  8.71 n_el=4275 4s
+M4 n= 1 cart50 V3  e=  2.66 n_el=4296 4s
+M4 n= 1 cart50 V4  e=  6.31 n_el=3872 5s
+M4 n= 1 cart30 A   e=  0.22 n_el=3892 4s
+M4 n= 1 cart30 B   e= 21.51 n_el=3965 4s
+M4 n= 1 cart30 V1  e=  1.04 n_el=3772 4s
+M4 n= 1 cart30 V3  e=  2.55 n_el=4296 4s
+M4 n= 1 cart30 V2  e= 12.04 n_el=4275 5s
+M4 n= 1 cart30 V4  e=  5.74 n_el=3872 4s
+M3 n=16 cart30 V1  e= 19.71 n_el=2213 19s
+M3 n=16 cart30 V4  e= 43.03 n_el=2241 19s
+M3 n=16 cart30 V3  e=  3.06 n_el=2443 22s
+M3 n=16 cart30 V2  e= 49.22 n_el=2445 23s
+M4 n= 4 cart50 A   e=  2.72 n_el=3892 10s
+M4 n= 4 cart50 V1  e= 12.36 n_el=3772 10s
+M4 n= 4 cart50 B   e=  4.35 n_el=3965 11s
+M4 n= 4 cart50 V2  e= 46.40 n_el=4275 11s
+M4 n= 4 cart50 V3  e=  3.24 n_el=4296 11s
+M4 n= 4 cart50 V4  e= 38.97 n_el=3872 10s
+M4 n= 4 cart30 A   e=  2.82 n_el=3892 11s
+M4 n= 4 cart30 V1  e= 19.15 n_el=3772 10s
+M4 n= 4 cart30 B   e=  3.47 n_el=3965 11s
+M4 n= 4 cart30 V3  e=  2.91 n_el=4296 11s
+M4 n= 4 cart30 V4  e= 38.02 n_el=3872 10s
+M4 n= 4 cart30 V2  e= 47.40 n_el=4275 12s
+M4 n= 8 cart50 A   e=  2.89 n_el=3892 18s
+M4 n= 8 cart50 B   e=  6.63 n_el=3965 20s
+M4 n= 8 cart50 V1  e= 19.32 n_el=3772 18s
+M4 n= 8 cart50 V3  e=  6.96 n_el=4296 21s
+M4 n= 8 cart50 V2  e= 47.59 n_el=4275 21s
+M4 n= 8 cart50 V4  e= 39.81 n_el=3872 18s
+M4 n= 8 cart30 A   e=  2.89 n_el=3892 19s
+M4 n= 8 cart30 B   e=  3.80 n_el=3965 20s
+M4 n= 8 cart30 V1  e= 19.32 n_el=3772 18s
+M4 n= 8 cart30 V2  e= 48.16 n_el=4275 21s
+M4 n= 8 cart30 V3  e=  2.22 n_el=4296 20s
+M4 n= 8 cart30 V4  e= 39.81 n_el=3872 19s
+M4 n=16 cart50 A   e=  3.17 n_el=3892 34s
+M4 n=16 cart50 V1  e= 19.74 n_el=3772 34s
+M4 n=16 cart50 B   e=  4.39 n_el=3965 37s
+M4 n=16 cart50 V2  e= 48.59 n_el=4275 41s
+M4 n=16 cart50 V3  e=  3.04 n_el=4296 38s
+M4 n=16 cart50 V4  e= 43.79 n_el=3872 35s
+M4 n=16 cart30 A   e=  3.17 n_el=3892 35s
+M4 n=16 cart30 B   e=  4.07 n_el=3965 36s
+M4 n=16 cart30 V1  e= 19.61 n_el=3772 29s
+M4 n=16 cart30 V2  e= 49.32 n_el=4275 33s
+M4 n=16 cart30 V3  e=  2.47 n_el=4296 32s
+M4 n=16 cart30 V4  e= 41.90 n_el=3872 27s
+M1_1 {'mesh_diff': 0.7581, 'substep_diff': None}
+M1_4 {'mesh_diff': 0.8453, 'substep_diff': 0.3588}
+M1_8 {'mesh_diff': 0.5849, 'substep_diff': 1.1431}
+M1_16 {'mesh_diff': 0.7945, 'substep_diff': None}
+M2_1 {'mesh_diff': 0.278, 'substep_diff': None}
+M2_4 {'mesh_diff': 1.1504, 'substep_diff': 0.5093}
+M2_8 {'mesh_diff': 0.3583, 'substep_diff': 0.5709}
+M2_16 {'mesh_diff': 0.2292, 'substep_diff': None}
+M3_1 {'mesh_diff': 0.298, 'substep_diff': None}
+M3_4 {'mesh_diff': 1.0133, 'substep_diff': 0.4873}
+M3_8 {'mesh_diff': 0.6275, 'substep_diff': 0.4743}
+M3_16 {'mesh_diff': 0.1286, 'substep_diff': None}
+M4_1 {'mesh_diff': None, 'substep_diff': None}
+M4_4 {'mesh_diff': None, 'substep_diff': 0.5882}
+M4_8 {'mesh_diff': None, 'substep_diff': 0.5893}
+M4_16 {'mesh_diff': None, 'substep_diff': None}
+production: {'mesh': 'M4', 'n': 16, 'note': 'criterion not met; finest feasible setting used (Sect. 9.2)'} (10.1 min)

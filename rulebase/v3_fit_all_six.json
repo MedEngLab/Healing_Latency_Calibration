@@ -1,0 +1,616 @@
+{
+ "design": "v3_fit_all_six",
+ "source": "results_v3/primary_M4_32/v3_summary.json (LOO fold 'all')",
+ "neg_destructive_crossover": -0.03,
+ "cartilage_output_universe": 0.5,
+ "onset_delay_tau_days": 24,
+ "maximal_callus_index_mCI": 3.3,
+ "calibrated_parameters": {
+  "E_bone": 538.0,
+  "E_cart": 28.0,
+  "E_conn": 1.4,
+  "nu_bone": 0.33,
+  "nu_cart": 0.3,
+  "nu_conn": 0.33,
+  "dec_perf": -0.22,
+  "dec_bone": -0.475,
+  "dec_cart": -0.28,
+  "inc_cart": 0.23,
+  "exp_bone": 4.5,
+  "exp_cart": 3.1
+ },
+ "materials": {
+  "E": {
+   "cortex": 15750.0,
+   "bone": 538.0,
+   "cartilage": 28.0,
+   "soft": 1.4
+  },
+  "nu": {
+   "cortex": 0.325,
+   "bone": 0.33,
+   "cartilage": 0.3,
+   "soft": 0.33
+  },
+  "mixture": "steiner",
+  "exp_bone": 4.5,
+  "exp_cart": 3.1
+ },
+ "inputs": {
+  "dilatational_strain": {
+   "order": [
+    "neg_destructive",
+    "neg_medium",
+    "neg_low",
+    "about_zero",
+    "pos_low",
+    "pos_medium",
+    "pos_destructive"
+   ],
+   "trapezoids": {
+    "neg_destructive": [
+     -1.0,
+     -1.0,
+     -0.04,
+     -0.019999999999999997
+    ],
+    "neg_medium": [
+     -0.04,
+     -0.019999999999999997,
+     -0.009000000000000001,
+     -0.008
+    ],
+    "neg_low": [
+     -0.009000000000000001,
+     -0.008,
+     -0.0003,
+     -0.0001
+    ],
+    "about_zero": [
+     -0.0003,
+     -0.0001,
+     0.0001,
+     0.0003
+    ],
+    "pos_low": [
+     0.0001,
+     0.0003,
+     0.008,
+     0.009000000000000001
+    ],
+    "pos_medium": [
+     0.008,
+     0.009000000000000001,
+     0.04,
+     0.06
+    ],
+    "pos_destructive": [
+     0.04,
+     0.06,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "distortional_strain": {
+   "order": [
+    "about_zero",
+    "low",
+    "medium",
+    "destructive"
+   ],
+   "trapezoids": {
+    "about_zero": [
+     0.0,
+     0.0,
+     0.0001,
+     0.0005
+    ],
+    "low": [
+     0.0001,
+     0.0005,
+     0.05,
+     0.09
+    ],
+    "medium": [
+     0.05,
+     0.09,
+     0.14,
+     0.18
+    ],
+    "destructive": [
+     0.14,
+     0.18,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "perfusion": {
+   "order": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "trapezoids": {
+    "low": [
+     0.0,
+     0.0,
+     0.2,
+     0.4
+    ],
+    "medium": [
+     0.2,
+     0.4,
+     0.6,
+     0.8
+    ],
+    "high": [
+     0.6,
+     0.8,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "perfusion_adjacent": {
+   "order": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "trapezoids": {
+    "low": [
+     0.0,
+     0.0,
+     0.2,
+     0.4
+    ],
+    "medium": [
+     0.2,
+     0.4,
+     0.6,
+     0.8
+    ],
+    "high": [
+     0.6,
+     0.8,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "cartilage": {
+   "order": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "trapezoids": {
+    "low": [
+     0.0,
+     0.0,
+     0.2,
+     0.4
+    ],
+    "medium": [
+     0.2,
+     0.4,
+     0.6,
+     0.8
+    ],
+    "high": [
+     0.6,
+     0.8,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "bone": {
+   "order": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "trapezoids": {
+    "low": [
+     0.0,
+     0.0,
+     0.2,
+     0.4
+    ],
+    "medium": [
+     0.2,
+     0.4,
+     0.6,
+     0.8
+    ],
+    "high": [
+     0.6,
+     0.8,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "bone_adjacent": {
+   "order": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "trapezoids": {
+    "low": [
+     0.0,
+     0.0,
+     0.2,
+     0.4
+    ],
+    "medium": [
+     0.2,
+     0.4,
+     0.6,
+     0.8
+    ],
+    "high": [
+     0.6,
+     0.8,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "outputs": {
+  "perfusion_change": {
+   "range": [
+    -0.5,
+    0.5
+   ],
+   "decrease": [
+    -0.5,
+    -0.5,
+    -0.245,
+    -0.195
+   ],
+   "stay": [
+    -0.245,
+    -0.195,
+    0.195,
+    0.245
+   ],
+   "increase": [
+    0.195,
+    0.245,
+    0.5,
+    0.5
+   ]
+  },
+  "cartilage_change": {
+   "range": [
+    -0.5,
+    0.5
+   ],
+   "decrease": [
+    -0.5,
+    -0.5,
+    -0.30500000000000005,
+    -0.255
+   ],
+   "stay": [
+    -0.30500000000000005,
+    -0.255,
+    0.20500000000000002,
+    0.255
+   ],
+   "increase": [
+    0.20500000000000002,
+    0.255,
+    0.5,
+    0.5
+   ]
+  },
+  "bone_change": {
+   "range": [
+    -0.5,
+    0.5
+   ],
+   "decrease": [
+    -0.5,
+    -0.5,
+    -0.5,
+    -0.44999999999999996
+   ],
+   "stay": [
+    -0.5,
+    -0.44999999999999996,
+    0.195,
+    0.245
+   ],
+   "increase": [
+    0.195,
+    0.245,
+    0.5,
+    0.5
+   ]
+  }
+ },
+ "rules": [
+  {
+   "id": "S11-1",
+   "process": "angiogenesis",
+   "if": {
+    "perfusion": [
+     [
+      "range",
+      "low",
+      "low"
+     ]
+    ],
+    "perfusion_adjacent": [
+     [
+      "range",
+      "medium",
+      "high"
+     ]
+    ],
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_medium",
+      "pos_medium"
+     ]
+    ],
+    "distortional_strain": [
+     [
+      "range",
+      "about_zero",
+      "low"
+     ]
+    ]
+   },
+   "then": {
+    "perfusion_change": "increase"
+   }
+  },
+  {
+   "id": "S11-2",
+   "process": "angiogenesis",
+   "if": {
+    "perfusion": [
+     [
+      "range",
+      "medium",
+      "high"
+     ]
+    ],
+    "perfusion_adjacent": [
+     [
+      "range",
+      "high",
+      "high"
+     ]
+    ],
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_medium",
+      "pos_medium"
+     ]
+    ],
+    "distortional_strain": [
+     [
+      "range",
+      "about_zero",
+      "low"
+     ]
+    ]
+   },
+   "then": {
+    "perfusion_change": "increase"
+   }
+  },
+  {
+   "id": "S11-3",
+   "process": "intramembranous ossification",
+   "if": {
+    "perfusion": [
+     [
+      "range",
+      "high",
+      "high"
+     ]
+    ],
+    "bone_adjacent": [
+     [
+      "range",
+      "high",
+      "high"
+     ]
+    ],
+    "cartilage": [
+     [
+      "range",
+      "low",
+      "low"
+     ]
+    ],
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_low",
+      "neg_low"
+     ],
+     [
+      "range",
+      "pos_low",
+      "pos_low"
+     ]
+    ],
+    "distortional_strain": [
+     [
+      "range",
+      "low",
+      "low"
+     ]
+    ]
+   },
+   "then": {
+    "bone_change": "increase"
+   }
+  },
+  {
+   "id": "S11-4",
+   "process": "chondrogenesis",
+   "if": {
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_medium",
+      "neg_low"
+     ]
+    ],
+    "distortional_strain": [
+     [
+      "not",
+      "destructive"
+     ]
+    ]
+   },
+   "then": {
+    "cartilage_change": "increase"
+   }
+  },
+  {
+   "id": "S11-5",
+   "process": "cartilage calcification",
+   "if": {
+    "bone_adjacent": [
+     [
+      "range",
+      "medium",
+      "high"
+     ]
+    ],
+    "cartilage": [
+     [
+      "range",
+      "medium",
+      "high"
+     ]
+    ],
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_medium",
+      "pos_low"
+     ]
+    ],
+    "distortional_strain": [
+     [
+      "range",
+      "about_zero",
+      "medium"
+     ]
+    ]
+   },
+   "then": {
+    "bone_change": "increase",
+    "cartilage_change": "decrease"
+   }
+  },
+  {
+   "id": "S11-6",
+   "process": "endochondral ossification",
+   "if": {
+    "perfusion": [
+     [
+      "range",
+      "medium",
+      "high"
+     ]
+    ],
+    "bone": [
+     [
+      "range",
+      "high",
+      "high"
+     ]
+    ],
+    "cartilage": [
+     [
+      "range",
+      "low",
+      "low"
+     ]
+    ],
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_low",
+      "neg_low"
+     ],
+     [
+      "range",
+      "pos_low",
+      "pos_low"
+     ]
+    ],
+    "distortional_strain": [
+     [
+      "range",
+      "about_zero",
+      "low"
+     ]
+    ]
+   },
+   "then": {
+    "bone_change": "increase",
+    "cartilage_change": "decrease"
+   }
+  },
+  {
+   "id": "S11-7",
+   "process": "atrophy (overload)",
+   "if": {
+    "dilatational_strain": [
+     [
+      "range",
+      "neg_destructive",
+      "neg_destructive"
+     ],
+     [
+      "range",
+      "pos_destructive",
+      "pos_destructive"
+     ]
+    ]
+   },
+   "then": {
+    "perfusion_change": "decrease",
+    "bone_change": "decrease",
+    "cartilage_change": "decrease"
+   }
+  },
+  {
+   "id": "S11-8",
+   "process": "atrophy (overload)",
+   "if": {
+    "distortional_strain": [
+     [
+      "range",
+      "destructive",
+      "destructive"
+     ]
+    ]
+   },
+   "then": {
+    "perfusion_change": "decrease",
+    "bone_change": "decrease",
+    "cartilage_change": "decrease"
+   }
+  }
+ ],
+ "notes": "Trapezoidal membership functions [a, b, c, d]; strains as absolute values (0.01 = 1 %); tissue fractions and perfusion in [0, 1]; output changes per day before element-size scaling. Rules: Simon et al. 2011, Table 2."
+}

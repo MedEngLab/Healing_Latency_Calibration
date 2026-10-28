@@ -1,0 +1,13 @@
+{
+ "note": "v3 secondary (a), PROTOCOL 10.2: 12 ST13 + tau + mCI, cart50, M4_32",
+ "settings": {
+  "A_ref": 0.2519499163693227,
+  "perf_rate": 0.33613899809620157,
+  "max_area_callus": 0.04,
+  "max_area_cortex": 0.08,
+  "substeps": 32,
+  "defuzz": "exact",
+  "cart_lim": 0.5,
+  "v3_free": true
+ }
+}

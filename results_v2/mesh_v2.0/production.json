@@ -1,0 +1,10 @@
+{
+ "note": "criterion not met; finest feasible setting used (Sect. 9.2)",
+ "settings": {
+  "A_ref": 0.26415869756983573,
+  "max_area_callus": 0.04,
+  "max_area_cortex": 0.08,
+  "substeps": 16,
+  "defuzz": "exact"
+ }
+}

@@ -1,0 +1,41 @@
+  reference gen 0: 1 evaluations in 31 s
+  reference gen 0: 1 evaluations in 30 s
+  lhs gen 0: 150 evaluations in 983 s
+  pso gen 1: 31 evaluations in 244 s
+  gen 1: best G = 1.355 (stall 0)
+  pso gen 2: 32 evaluations in 272 s
+  gen 2: best G = 0.851 (stall 0)
+  pso gen 3: 32 evaluations in 306 s
+  gen 3: best G = 0.851 (stall 1)
+  pso gen 4: 32 evaluations in 307 s
+  gen 4: best G = 0.851 (stall 2)
+  pso gen 5: 32 evaluations in 289 s
+  gen 5: best G = 0.767 (stall 0)
+  pso gen 6: 32 evaluations in 286 s
+  gen 6: best G = 0.559 (stall 0)
+  pso gen 7: 32 evaluations in 291 s
+  gen 7: best G = 0.559 (stall 1)
+  pso gen 8: 32 evaluations in 309 s
+  gen 8: best G = 0.559 (stall 2)
+  pso gen 9: 32 evaluations in 288 s
+  gen 9: best G = 0.559 (stall 3)
+  pso gen 10: 32 evaluations in 285 s
+  gen 10: best G = 0.559 (stall 4)
+  pso gen 11: 32 evaluations in 273 s
+  gen 11: best G = 0.559 (stall 5)
+  pso gen 12: 32 evaluations in 286 s
+  gen 12: best G = 0.559 (stall 6)
+  step2 gen 0: 1 evaluations in 29 s
+
+best G step 1 = 0.559, step 2 (-3 %) = 1.081; at bounds: ['E_bone', 'nu_bone']
+summary written to results_v3/cal_v3a/calibration_summary.json
+next: python3 -m calibration.validate --out results_v3/cal_v3a
+K1_calibration_fit     PASS  mean <= 1.0 and each case <= 1.5
+K2_caseB_day56         PASS  IFM(B, day 56) <= 0.25 mm
+K3_validation_fit      FAIL  mean over V1-V4 <= 2.0
+K4_identifiability     PASS  <= 3 parameters within 1 % of a bound
+written: results_v3/cal_v3a/validation_summary.json, ifm_calibration_validation.png
+calibrated {'A': 0.44, 'B': 0.26, 'V1': 0.7, 'V2': 25.76, 'V3': 1.78, 'V4': 5.67} mean V1-V4 8.48
+ST13_design706 {'A': 2.67, 'B': 4.92, 'V1': 14.35, 'V2': 44.16, 'V3': 2.91, 'V4': 38.34} mean V1-V4 24.94
+written results_v3/cal_v3a/reevaluation_v3a_M4_32.json
+v3 secondary (a) complete
